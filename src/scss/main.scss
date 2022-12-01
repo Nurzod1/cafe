@@ -1,0 +1,28 @@
+@import "fonts.scss";
+
+body {
+  font-family: "Alegreya";
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: blue orange;
+
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #252525;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #252525;
+    border-radius: 20px;
+    border: 2px solid #303030;
+  }
+}
+// xs - (320-575)px
+// sm - (576-767)px
+// md - (768-991)px
+// lg - (992-1199)px
+// xl - (1200+)px
